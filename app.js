@@ -1,5 +1,4 @@
 //MVC model view controller
-const AppRouting = require('./components/homePage')
 const express = require('express')
 const app = express()
 
@@ -7,8 +6,7 @@ const port = 3000
 
 // Routing
 
-app.use('/', AppRouting)
-app.get('/about-us', (req, res) => res.end('About Hello World!'))
+app.get('/', (req, res) => res.send('This is the home page'))
 
 // app.post()
 // app.put()
