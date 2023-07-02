@@ -1,12 +1,13 @@
 //MVC model view controller
 const express = require('express')
 const app = express()
+const RestaurantController = require('./controller/RestaurantController')
 
 const port = 3000
 
 // Routing
 
-app.get('/', (req, res) => res.send('This is the home page'))
+app.get('/', RestaurantController.getHomePage)
 
 // app.post()
 // app.put()
