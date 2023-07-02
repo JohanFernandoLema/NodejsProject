@@ -6,6 +6,8 @@ const RestaurantController = require('./controller/RestaurantController')
 app.set('views', './views')
 app.set('view engine', 'pug')
 
+app.use(express.static('./public'))
+
 const port = 3000
 
 // Routing
