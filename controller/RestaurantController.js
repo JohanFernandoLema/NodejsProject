@@ -1,6 +1,6 @@
 const RestaurantController = {
   getHomePage: (req, res) => {
-    res.send('My name is Jeff')
+    res.render('index.pug')
   },
 }
 module.exports = RestaurantController
