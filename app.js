@@ -3,6 +3,9 @@ const express = require('express')
 const app = express()
 const RestaurantController = require('./controller/RestaurantController')
 
+app.set('views', './views')
+app.set('view engine', 'pug')
+
 const port = 3000
 
 // Routing
