@@ -11,8 +11,9 @@ const RestaurantController = {
   },
   getSingleRestaurant: (req, res) => {
     // to read data from params we use ==>
-    let data = req.params
-    res.send({ status: true, result: dbData, data })
+    let { city } = req.params
+    let result = dbData.filter((item) => item.location === city)
+    res.send({ status: true, result })
   },
 }
 module.exports = RestaurantController
