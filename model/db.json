@@ -1,0 +1,22 @@
+[
+  {
+    "name": "KFC",
+    "location": "mumbai",
+    "cost for two": "500"
+  },
+  {
+    "name": "tim hortons",
+    "location": "mumbai",
+    "cost for two": "500"
+  },
+  {
+    "name": "wendy's",
+    "location": "mumbai",
+    "cost for two": "500"
+  },
+  {
+    "name": "pop-eyes",
+    "location": "mumbai",
+    "cost for two": "500"
+  }
+]

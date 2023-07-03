@@ -13,6 +13,7 @@ const port = 3000
 // Routing
 
 app.get('/', RestaurantController.getHomePage)
+app.get('/get-db-data', RestaurantController.getRestaurantList)
 
 // app.post()
 // app.put()
