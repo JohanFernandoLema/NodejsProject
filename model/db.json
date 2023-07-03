@@ -1,22 +1,22 @@
 [
   {
     "name": "KFC",
-    "location": "mumbai",
+    "location": "toronto",
     "cost for two": "500"
   },
   {
     "name": "tim hortons",
-    "location": "mumbai",
+    "location": "mississauga",
     "cost for two": "500"
   },
   {
     "name": "wendy's",
-    "location": "mumbai",
+    "location": "ottawa",
     "cost for two": "500"
   },
   {
     "name": "pop-eyes",
-    "location": "mumbai",
+    "location": "montreal",
     "cost for two": "500"
   }
 ]
