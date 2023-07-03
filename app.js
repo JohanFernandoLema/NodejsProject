@@ -14,6 +14,7 @@ const port = 3000
 
 app.get('/', RestaurantController.getHomePage)
 app.get('/get-db-data', RestaurantController.getRestaurantList)
+app.get('/get-single-data/:city', RestaurantController.getSingleRestaurant)
 
 // app.post()
 // app.put()

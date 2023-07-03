@@ -9,5 +9,10 @@ const RestaurantController = {
     }
     res.send(sendData)
   },
+  getSingleRestaurant: (req, res) => {
+    // to read data from params we use ==>
+    let data = req.params
+    res.send({ status: true, result: dbData, data })
+  },
 }
 module.exports = RestaurantController
